@@ -1,0 +1,217 @@
+* {
+	
+	text-align:center;
+	margin:auto;
+}
+
+
+#welcome {
+	text-align:left;
+	color:black;
+	font-size:14px;
+	font-family:Courier New;
+}
+
+h2 {
+    border: 1px solid black;
+    outline-color:#006633;
+	width:400px;
+	border-style:dotted;
+}
+#search {
+	
+	padding:8px 10px;
+    background:white;
+    border:1px solid #CCCCCC;
+	background-image: url('indexphotos/searchbutton.png');
+	background-repeat: no-repeat;
+	background-position: 3px 5px; 	
+}
+
+
+.button {
+    position:relative;         
+	padding:9px 15px;
+	border:1px solid;
+	background-color:black;
+	color:white;
+}
+.button:hover{
+	background:green;
+}
+
+
+.ul {
+list-style-type: none;
+padding: 0px;
+margin:  auto;
+width:800px;
+}
+
+  .ul .li {
+	float: left;
+	  }
+  .li .ul {
+	  display: none; /*Kruvei to periexomeno*/
+	  }
+	  
+  .ul .li a {
+	  display:block; /*To emfanizei*/
+	  background:black;
+	  text-decoration: none;
+      white-space: nowrap; /*Diaxirizomaste to aspro xwro na mhn tiligetai. An to bgaloyme Paramorfonetai to Μητερα&Παιδι*/
+	  color: white;
+	  text-align:center;
+      padding: 14px 16px;
+	  width:125px;
+	  margin:1px;
+	  
+	  }	
+   .li:hover .ul {
+	  display: block;
+	  position: absolute;
+	  }
+  .li:hover .li {
+	  float:none;
+	  width:149px;
+	  padding-right:700px;
+	  }
+	  
+  .li:hover a {
+	background:#006600;
+	width:125px;
+	opacity:0.9;	  
+	  
+	  }
+  .li:hover .li a:hover {
+	background:#00CC33;
+	margin:1px;
+	 }
+  table,tr{
+    border: 1px solid;
+	}	
+table.center.middle {
+	width:500px;
+	border: 3px solid #00CC33 ;
+    padding: 10px;
+	float:left;
+	border-width: 1px 1px 0px 0px;
+	}
+.center {
+	width:500px;
+	border: 3px solid #00CC33 ;
+    padding: 10px;
+	float:left;
+	}
+	.middle {
+	width:500px;
+	border: 3px solid #00CC33 ;
+    padding: 10px;
+	float:left;
+	}
+table.center { 
+    width:30%; 
+    margin-right:15%;
+	border-width: 1px 1px 0px 0px;
+  }
+  table.middle {
+    width:30%; 
+    margin-left:19%;
+	border-width: 1px 0px 0px 1px;	
+    }
+.button{
+	padding:9px 15px;
+	border:1px solid;
+	background-color:black;
+	color:white;
+}
+.image{
+	width:200px;
+}
+.image:hover{
+opacity: 0.5;
+}
+.firstprice{
+	color:grey;
+}
+.finalprice{
+	color:#006600;
+	font-size:20px;
+}
+.basket{
+	width:40px;
+	}
+.terms {
+	text-align:left;
+	}
+	.terms a{
+		text-decoration:none;
+		color:black;
+		opacity:0.8;
+	}
+	
+
+
+	.terms:hover a{
+		color:green;
+	}
+#Information{
+width: 100%;
+margin:auto;
+border: 1px solid gray;
+ line-height: 150%; }
+}
+	#inf{
+		 text-align:left;
+	}
+	div {
+    padding: 0.2em;
+    color: black;
+    background-color: #CCCCCC;
+	text-align: center;
+	}
+	#leftnav {
+		float:left; 
+		width:200px; 
+		margin:0;
+		max-width:12em;
+		
+		}
+		#rightnav {
+		float:right;
+		width:200px;
+		height:150px;
+		margin:0;
+		padding: 1em;
+		max-width:12em;
+
+		}
+		#center{
+		margin-left:200px;
+		border-left:1px solid gray;
+		border-right:1px solid gray;
+		max-width:36em }
+		#footer {
+	margin: 0; 
+	padding: .2em;
+	color: #333;
+	background-color: #ddd;
+	border-top: 1px solid gray;}
+	.cat {
+	text-align:left;
+	}
+	.cat a{
+		text-decoration:none;
+		color:black;
+		opacity:0.8;
+	}
+	.cat:hover a{
+		color:green;
+	}
+	
+	
+	
+
+	
+	
+

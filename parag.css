@@ -1,0 +1,47 @@
+* {
+	
+	text-align:center;
+	margin:auto;
+}
+
+.parag{
+	border-collapse: collapse;
+    width: 70%;
+	
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+	
+}
+.grammes:hover{background-color:f2f2f2}
+th {
+    background-color: #00b33c;
+    color: white;
+}
+.item {
+    position:relative;         
+	padding:9px 15px;
+	border:1px solid;
+	background-color:black;
+	color:white;
+	
+}
+.item:hover{
+	background:green;
+}
+.s {
+	padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+	float:left;
+	margin:5px;
+	
+}
+.s:hover{
+	background-color: black;
+    color: white;
+	 
+	
+}

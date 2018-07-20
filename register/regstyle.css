@@ -1,0 +1,84 @@
+*{
+	font-family:Verdana;
+	font-size:16px;
+	color:#666666;
+	text-align:left;
+}
+h2{
+	text-align:center;
+}
+.container{
+	margin:0 auto;
+	width:50%;
+}
+
+ form{
+	 width:300px;
+	 margin:0 auto;
+	 background-color: hsl(0, 0%, 92%);
+	 border: 2px solid #ccc;
+	 padding: 12px 12px 12px 12px;
+	 border-style: double;
+ }
+ .name{
+	width:100%;
+	border: 2px solid #ccc;
+	background-image:url('name.png');
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 15px 10px 35px;
+	background-size:20px;	 
+ }
+ .password{
+	width:100%;
+	border: 2px solid #ccc;
+	background-image:url('pass.png');
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 15px 10px 35px;
+	background-size:20px;
+ }
+  #email{
+	width:100%;
+	border: 2px solid #ccc;
+	background-image:url('email.png');
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 15px 10px 35px;
+	background-size:23px;
+ }
+  #phone{
+	width:100%;
+	border: 2px solid #ccc;
+	background-image:url('phone.png');
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 15px 10px 35px;
+	background-size:20px;
+ }
+ 
+ .city{
+	width:100%;
+	border: 2px solid #ccc;
+	background-image:url('city.png');
+	background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 15px 10px 35px;
+	background-size:20px;
+ }
+
+.submit{
+	padding:9px 15px;
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	text-align:center; 
+	width: 100%;
+}
+
+.submit:hover{ 
+	background-color:green;
+}
+.button{
+	width:30px;
+}
